@@ -20,7 +20,7 @@
         app:layout_constraintStart_toEndOf="@+id/btndegrees" />
 
     <Button
-        android:id="@+id/btntang2"
+        android:id="@+id/btntang"
         android:layout_width="100dp"
         android:layout_height="90dp"
         android:backgroundTint="#F49405"
@@ -224,7 +224,7 @@
         android:backgroundTint="#F49405"
         android:text="deg"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        app:layout_constraintBottom_toTopOf="@+id/btntang2"
+        app:layout_constraintBottom_toTopOf="@+id/btntang"
         app:layout_constraintStart_toEndOf="@+id/btnclear" />
 
     <Button
@@ -244,7 +244,7 @@
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/btnclear"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
